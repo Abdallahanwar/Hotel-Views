@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+img{
+    -webkit-transform: scale(1.06);
+	transform: scale(1.06);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img:hover{
+    -webkit-transform: scale(1.07);
+	transform: scale(1.07);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

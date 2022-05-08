@@ -1,0 +1,15 @@
+.card {
+    margin: 15px 0px 15px 10px;
+}
+
+.card-image{
+    height: 17rem;
+    border-bottom-right-radius: 20%;
+}
+
+.notFoundImage{
+    width: 30%;
+    height: 40%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+}

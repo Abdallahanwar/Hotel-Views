@@ -1,0 +1,13 @@
+    .errorMessage { 
+      margin-top:40px; 
+      margin-bottom:40px;
+      font-size: 30px;
+      text-align: center; 
+    }
+    .notFoundImage {
+        width: 30%;
+        height: 40%;
+        margin-top: 30px;
+        border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    }

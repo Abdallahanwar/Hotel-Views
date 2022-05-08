@@ -1,0 +1,9 @@
+.input{
+    width: 40%;
+    margin: 20px 0 10px 32%;
+}
+
+.deleteButton{
+    margin-left: -40px !important; 
+    z-index: 100;
+}

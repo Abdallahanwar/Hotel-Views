@@ -1,0 +1,27 @@
+<div class="card mb-5 card-detail mx-auto border-white">
+    <!-- <img class="card-img-top image-detail mx-auto" src="assets/Images/{{hotel.image}}" alt="Card image cap"> -->
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item" *ngFor="let item of [].constructor(5); let i = index;let isFirst = first" [ngClass]="{active:isFirst}">
+              <img src="assets/Images/{{hotel.image}}/{{hotel.image}}{{i+1}}.jpg" class="d-block w-90 card-img-top image-detail mx-auto" alt="...">
+            </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">{{hotel.name}}</h5>
+      <p class="card-text">{{hotel.cityLocation}}</p><hr>
+      <h6>Star Rating : {{hotel.starRating}} <i class="fa fa-thin fa-star"></i></h6>
+      <h6>No. Of Rooms : {{hotel.numberOfRooms}} </h6>
+      <p class="card-text">{{hotel.description}}</p>
+    </div>
+    <button class="btn btn-outline-secondary" routerLink="/hotels">back</button>
+  </div>
+

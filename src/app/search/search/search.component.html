@@ -1,0 +1,10 @@
+<div class="input-group mb-3 input">
+    <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2"
+      [(ngModel)]="searchInput" (keydown.enter)="searchByName()">
+      <button class="btn bg-transparent deleteButton" (click)="[emptyText(),searchByName()]">
+        <i class="fa fa-times"></i>
+      </button>
+    <div class="input-group-append">
+      <button class="btn btn-secondary" type="submit" (click)="searchByName()">Search</button>
+    </div>
+   </div>
